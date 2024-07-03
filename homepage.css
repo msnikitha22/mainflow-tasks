@@ -1,0 +1,122 @@
+*{
+
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    body{
+    
+    background-color: #000;
+    
+    font-family: 'Segoe UI',sans-serif;
+
+    
+    }
+    
+    
+    
+    .rows1{
+    
+    width: 100%; object-fit: contain;
+     
+    max-height: 100px; margin-right: 10px;
+    transition: transform 450ms;
+    
+    }
+    
+    .rowposters1{ display: flex; overflow-y: hidden; overflow-x: scroll; padding: 20px;
+    }
+    
+    .rows1:hover{
+    
+    transform: scale(1.12);
+    
+    }
+    
+    .rowposters1::-webkit-scrollbar{ display: none;
+    }
+    
+    .row{
+    
+    color: white; margin-left: 20px;
+    }
+    
+    .banner{
+    
+    background-image: url(ab.jpg);
+     
+    background-size: cover; background-position: center center; color: white;
+    object-fit: contain; height: 448px;
+    }
+    
+    .bannercontent{ margin-left: 500px; padding-top: 400px; height: 190px;
+    }
+    
+    .home{ display: flex;
+    align-items: center; padding: 12px 20px;
+    
+    
+    }
+    
+    .home:hover{ background:#e5e5e5; cursor: pointer;
+    }
+    
+    .home span{
+     
+    margin-left: 15px;
+    
+    }
+    
+    .sidebarcategories{ width: 15%; display: flex;
+    flex-direction: column; margin-bottom: 15px; margin-top: -330px;
+    }
+    
+    .navbar {
+    
+    overflow: hidden; background-color:black; position: fixed;
+    top: 0;
+    
+    width: 100%;
+    
+    }
+    
+    .navbar a { float: left; display: block; color: #f2f2f2;
+    text-align: center; padding: 1px 62px;
+     
+    text-decoration: none; font-size: 14px;
+    }
+    
+    .navbar a:hover { background:blue; color: rgb(219, 67, 67);
+    }
+    
+    .addicon:hover{ transform:scale(1.1) ;
+    }
+    
+    .addicon
+    
+    {
+    
+    font-size: 5vw; opacity: 0.8;
+    color: rgb(76, 62, 62); position: relative; left:80px;
+    top:-190px;
+    
+    }
+
+    .b2
+    {
+        position:absolute;
+        right:100px;
+        top:40px;
+        height: 34px;
+        width: 78px;
+        font-size: medium;
+        background-color:red;
+        color: white;
+        border-radius: 5px;
+        }
+    
+  
