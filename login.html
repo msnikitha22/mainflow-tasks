@@ -1,0 +1,122 @@
+<html>
+ <head>
+ <title>Netflix Home page</title>
+ <style>
+body{ 
+  background-image: url("nt.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  }
+ .b1{
+ position:absolute;
+ left:50px;
+ top:18px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ select,option{
+ position:absolute;
+ right:200px;
+ top:35px;
+ height: 40px;
+ width: 120px;
+ font-size: medium;
+ background-color: black;
+ color: white;
+ border-color: white;
+ border-radius: 5px;
+ }
+ .b2{
+ position:absolute;
+ right:100px;
+ top:40px;
+ height: 34px;
+ width: 78px;
+ font-size: medium;
+ background-color:red;
+ color: white;
+ border-radius: 5px;
+ }
+ .b3{
+ position:absolute;
+ left: 50%;
+ top:30%;
+ font-size: 200%;
+ }
+ .b4{
+ position:absolute;
+ left:60%;
+ top:40%;
+ font-size: 200%;
+ color: white;
+ }
+ h3{
+ position:absolute;
+ left: 60%;
+ top:55%;
+ font-size: 140%;
+ color: white;
+ }
+ .b5{position:absolute;
+ left:50%;
+ top:67%;
+ font-size: 110%;
+ color: white;
+ }
+ .b6{
+ position:absolute;
+ left:30%;
+ top:83%;
+ height: 55px;
+ width: 350px;
+ background-color: black;
+ color: white;
+ border-color: white;
+ padding: 10px;
+ }
+ .bb6{
+ position:absolute;
+ left:30%;
+ top:90%;
+ height: 55px;
+ width: 350px;
+ background-color: black;
+ color: white;
+ border-color: white;
+ padding: 10px;
+ }
+ .b7{
+ position:absolute;
+ left:60%;
+ top:83%;
+ height: 55px;
+ width: 200px;
+ background-color: red;
+ color:white;
+ font-size: medium;
+ }
+ </style>
+ </head>
+ <body>
+ <div>
+
+ <h1 style="color:red" class="b1">NETFLIX</h2>
+ <form>
+ <select>
+ <option style="text-align: center"> English</option>
+ <option style="text-align: center">hindi</option>
+ <option style="text-align: center">telugu</option>
+ <option style="text-align: center">tamil</option>
+ </select>
+</form> 
+ <a href="reg.html"><button type="submit" class="b2" >sign up</button></a>
+ <form action="login.php" method="POST" >
+ <input type="text" name="email" placeholder="Email address" class="b6" required>
+ <input type="text" name="password" placeholder="Password" class="bb6" required>
+ <a href="homepage.html"><button type="submit" class="b7" name="submit" id="submit" > Log IN</button></a> 
+ </form>
+ </h1>
+ </div>
+</body>
+</html>
